@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('resimler/hobiler.jpg'); /* Arka plan resmi */
+    background-size: cover; /* Resmi pencere boyutuna sığdır */
+    background-position: center; /* Resmi merkezde tut */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Header için yarı saydam siyah arka plan */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 50px 0;
+}
+
+.hobby {
+    background-color: rgba(218, 191, 135, 0.8); /* Çerçeve arka planı (saydam beyaz) */
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.hobby h2 {
+    margin-bottom: 10px;
+}
+
+
